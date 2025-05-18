@@ -5,5 +5,5 @@ A tool that generates synthetic tabular data using a sample. This code uses Vari
 
 ## Flowchart
 
-![Logo]("https://github.com/Deepanshu-Paul/DataGenerator/blob/main/ChatGPT%20Image%20May%2017%2C%202025%2C%2008_12_56%20PM.png")
 
+![ChatGPT Image May 17, 2025, 08_12_56 PM](https://github.com/user-attachments/assets/dfed83e3-8e65-4019-a6e9-908423724f49)
