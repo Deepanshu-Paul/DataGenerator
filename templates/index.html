@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Synthetic Data Generator</title>
+</head>
+<body>
+    <h2>Generate Synthetic Data from VAE</h2>
+    <form action="/generate" method="post">
+        <label for="rows">Synthetic Rows:</label>
+        <input type="number" name="row_count" id="rows" value="100" min="1" max="10000">
+        <input type="submit" value="Generate">
+    </form>
+
+    <hr>
+
+    <h2>Upload CSV and Generate Synthetic Data</h2>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="csv_file" accept=".csv" required>
+        <label for="upload_rows">Synthetic Rows:</label>
+        <input type="number" name="row_count" id="upload_rows" value="100" min="1" max="10000">
+        <input type="submit" value="Upload & Generate">
+    </form>
+</body>
+</html>
