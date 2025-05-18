@@ -15,7 +15,8 @@ Inversely transforms the data to restore original features (both numerical and c
 
 Outputs the generated data as a downloadable CSV file.
 
-What is a Variational Autoencoder (VAE)?
+# What is a Variational Autoencoder (VAE)?
+
 A Variational Autoencoder (VAE) is a type of deep generative model used to learn and generate new data similar to a training dataset.
 
 It has three main parts:
